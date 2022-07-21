@@ -23,7 +23,7 @@ async function main() {
   app.use(express.json());
 
   app.get("/", function (req, res) {
-    res.send("Hello World");
+    res.send("<h1> SEJA BEM VINDO!  <h1>");
   });
 
   // /oi -> "Olá, mundo"
