@@ -23,7 +23,8 @@ async function main() {
   app.use(express.json());
 
   app.get("/", function (req, res) {
-    res.send("<h1> SEJA BEM VINDO!  <h1>");
+    res.send("<h1> SEJA BEM VINDO! PROJETO NODE HOSPEDADO NO HEROKU <h1> "
+    );
   });
 
   // /oi -> "Olá, mundo"
